@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="msapplication-tap-highlight" content="no" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="keywords" content="3D carousel, 3d slider, jquery carousel, carousel, jquery carousel plugin, carousel slider">
+    <meta name="description" content="jQuery plugin that lets you create beautiful responsive 3D carousel slider.">
+    <meta name="author" content="Parth Jasani">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/jas-carousel.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto:300" rel="stylesheet">
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jas-carousel.js"></script>
+    <title>Sarthak's Birthday</title>
+    <link rel="stylesheet" href="../bootstrap/css/font-awesome-5.6.3.css">
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="../bootstrap/css/mdb.css">
+
+    <style>
+
+        img{
+            height: 200px;
+            width: 200px;
+        }
+    body{
+        background: url("../img1/img-6.jpg");
+        background-size: cover;
+    }
+
+    </style>
+</head>
+<body>
+<a href="../index.html" class="btn btn-light">Home</a>
+<main>
+
+    <div class="container cf">
+        <div class="slider-main">
+            <ul class="slider">
+                <li> <img src="../img1/img-17.jpg" /></li>
+                <li> <img src="../img1/img38.jpg" /></li>
+                <li> <img src="../img1/img-14.JPG" /></li>
+                <li> <img src="../img1/img-22.png" /></li>
+                <li> <img src="../img1/img-25.jpg" /></li>
+                <li> <img src="../img1/img-28.jpg" /></li>
+                <li> <img src="../img1/img-20.png" /></li>
+                <li> <img src="../img1/img-37.jpg" /></li>
+                <li> <img src="../img1/img-39.jpg" /></li>
+                <li> <img src="../img1/img38.jpg" /></li>
+                <li> <img src="../img1/img-12.jpg" /></li>
+                <li> <img src="../img1/img-35.jpg" /></li>
+                <li> <img src="../img1/img-30.jpg" /></li>
+                <li> <img src="../img1/img-21.png" /></li>
+                <li> <img src="../img1/img-18.jpg" /></li>
+                <li> <img src="../img1/img-13.jpg" /></li>
+                <li> <img src="../img1/img-26.png" /></li>
+                <li> <img src="../img1/img-34.jpg" /></li>
+                <li> <img src="../img1/img-16.JPG" /></li>
+                <li> <img src="../img1/img-24.jpg" /></li>
+                <li> <img src="../img1/img-31.jpg" /></li>
+
+            </ul>
+        </div>
+    </div>
+</main>
+
+
+
+<script>
+    $(document).ready(function() {
+        $(".slider").jasCarousel({
+            margin: 20,
+            auto: false,
+            speed: 800,
+            delay: 2000,
+            slideFrontFace: false,
+            moveOnSlideClick: true,
+        })
+    })
+
+</script>
+
+</body>
+</html>
